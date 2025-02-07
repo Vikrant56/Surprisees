@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter Generator for Sejal 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dear Sejal ❤️</h1>
+        <p id="loveMessage">Click the button to receive a sweet message!</p>
+        <button onclick="generateMessage()">💌 Send Love 💌</button>
+        <br><br>
+        <button id="musicButton" onclick="toggleMusic()">🎶 Play Music 🎶</button>
+    </div>
+
+    <audio id="loveSong" loop>
+        <source src="./Satranga (Animal)-(Mr-Jat.in).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
